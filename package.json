@@ -4,7 +4,7 @@
   "description": "Weather alert notifications server",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_TLS_REJECT_UNAUTHORIZED=0 && node index.js"
+    "start": "node index.js"
   },
   "author": "andreevgs",
   "license": "ISC",

@@ -1,0 +1,20 @@
+{
+  "name": "weather-alerts-server",
+  "version": "1.0.0",
+  "description": "Weather alert notifications server",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_TLS_REJECT_UNAUTHORIZED=0 && node index.js"
+  },
+  "author": "andreevgs",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
